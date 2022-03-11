@@ -1,7 +1,7 @@
 # INCREASING THE SEASONAL FLU VACCINATION RATE
 
+![alt text](data/Flu-Heroes.png)
 
-![Flu-Heroes.png](attachment:Flu-Heroes.png)
 
 ## Business Understanding
 
