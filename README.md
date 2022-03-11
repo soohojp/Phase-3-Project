@@ -40,17 +40,17 @@ We also decided to look closely at precision, because precision considers False 
 Furthermore, we will use ROC AUC as our final metric, since it tells us how much the model is capable of distinguishing between classes via the False Positive Rate and the True Positive Rate.
 
 ### Confusion Matrix
-![Confusion Matrix of Final Model]('photos/confusion_finalmodel')
+![Confusion Matrix of Final Model]('photos/confusion_finalmodel.png')
 
 True Positives: 6948
 True Negatives: 8577
 False Positives: 2056
 False Negatives 2449
 
-![Violin Plot of Final Model]('photos/violinplot_finalmodel')
+![Violin Plot of Final Model]('photos/violinplot_finalmodel.png')
 
 ## Evaluation Metrics
-![Confusion Matrix of Final Model]('photos/evalmetrics_finalmodel')
+![Confusion Matrix of Final Model]('photos/evalmetrics_finalmodel.png')
 
 Mean accuracy of the final model: 0.773489765351972
 
@@ -58,12 +58,12 @@ Precision Score of the final model: 0.7716570413149711
 
 AUC of the ROC Curve of the final model: 0.85
 
-![ROC-AUC of Final Model]('photos/ROCAUC_finalmodel')
+![ROC-AUC of Final Model]('photos/ROCAUC_finalmodel.png')
 
 ## Feature Importance
 What are the most important features for predicting whether one would receive the seasonal vaccine? We aim to find out using the `ExtraTreesClassifier` method. This class implements a meta estimator that fits a number of randomized decision trees (a.k.a. extra-trees) on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting.
 
-![Top 10 Feature Importance]('photos/top10feature')
+![Top 10 Feature Importance]('photos/top10feature.png')
 
 `doctor_recc_seasonal` - Seasonal flu vaccine was recommended by doctor. (binary)
 
