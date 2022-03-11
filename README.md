@@ -41,7 +41,9 @@ Furthermore, we will use ROC AUC as our final metric, since it tells us how much
 
 ## Evaluation Metrics
 Mean accuracy of the final model: 0.773489765351972
+
 Precision Score of the final model: 0.7716570413149711
+
 AUC of the ROC Curve of the final model: 0.85
 
 ## Feature Importance
